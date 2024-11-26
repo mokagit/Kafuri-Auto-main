@@ -183,6 +183,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  align-items: left;
 }
 
 .section-subtitle.\:dark { color: var(--white); }
@@ -193,7 +194,7 @@ body {
 
 .section-subtitle.\:light::before { background-image: url('../images/text-bars-dark.png'); }
 
-.section-title { text-align: center; }
+.section-title { text-align: left; }
 
 .h1,
 .h2,
