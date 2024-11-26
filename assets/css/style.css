@@ -329,7 +329,7 @@ body {
 .header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
 }
 
 .logo img { width: 100px; }
