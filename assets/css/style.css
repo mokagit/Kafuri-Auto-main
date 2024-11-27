@@ -173,6 +173,7 @@ body {
   text-transform: uppercase;
   margin-block-end: 12px;
   margin-inline: auto;
+  align-items: left;
 }
 
 .section-subtitle::before {
@@ -187,7 +188,7 @@ body {
   align-items: left;
 }
 
-.section-subtitle.\:dark { color: var(--white); }
+.section-subtitle.\:dark { color: var(--red); }
 
 .section-subtitle.\:dark::before { background-image: url('../images/text-bars-light.png'); }
 
