@@ -184,7 +184,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  align-items: left;
+  align-items: center;
 }
 
 .section-subtitle.\:dark { color: var(--white); }
@@ -195,7 +195,7 @@ body {
 
 .section-subtitle.\:light::before { background-image: url('../images/text-bars-dark.png'); }
 
-.section-title { text-align: left; }
+.section-title { text-align: center; }
 
 .h1,
 .h2,
@@ -216,7 +216,7 @@ body {
 }
 
 .h2 {
-  color: var(--red);
+  color: var(--international-orange-engineering);
   font-weight: var(--fw-600);
   line-height: 1.15;
 }
@@ -226,8 +226,11 @@ body {
   font-weight: var(--fw-600);
   line-height: 1.2;
 }
+
 .h2 { font-size: var(--fs-3); }
+
 .h3 { font-size: var(--fs-4); }
+
 .btn {
   background-color: var(--international-orange-engineering);
   color: var(--white);
