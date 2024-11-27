@@ -173,7 +173,6 @@ body {
   text-transform: uppercase;
   margin-block-end: 12px;
   margin-inline: auto;
-  align-items: left;
 }
 
 .section-subtitle::before {
